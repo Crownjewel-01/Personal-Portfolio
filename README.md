@@ -6,7 +6,7 @@ Welcome to my personal developer portfolio website! This site was built to showc
 
 ## 🚀 Live Demo
 
-Check it out here: [https://yourusername.github.io/](https://yourusername.github.io/)  
+Check it out here: [https://yourusername.github.io/](https://Crownjewel-01.github.io/)  
 > *(Replace with your actual GitHub Pages link if it's different)*
 
 ---
