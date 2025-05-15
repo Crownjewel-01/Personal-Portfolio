@@ -1,0 +1,1331 @@
+@media screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    html, body {
+        width: 100%;
+        height: 100%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: rgba(0, 0, 0, 0.5);
+        margin: 0;
+    }
+    .home {
+        width: 2.5rem;
+        height: 2.5rem;
+        top: 0.5rem;
+        left: 0.9rem;
+        position: fixed;
+        z-index: 9999;
+        background-color: white;
+    }
+    .pad {
+        padding-left: 0.9rem;
+        padding-right: 0.9rem;
+    }
+    .margin {
+        margin-left: 0.9rem;
+        margin-right: 0.9rem;
+    }
+                                                                /* PICTURE SECTION */
+    .info {
+        background-image: url(./images/IMG-20250209-WA0015-2.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 85%;
+        padding: 0.5rem 0rem;
+    }
+    .profile {
+        width: 85%;
+        margin: 13rem 0.9rem 0px;
+        color: white;
+    }
+    .picture {
+        visibility: hidden;
+    }
+    .name {
+        font-size: 2.9rem;
+        font-weight: 100;
+    }
+    .intro {
+        font-size: 1rem;
+    }
+
+                                                                /* LITTLE DETAILS */
+    .deets {
+        font-size: 0.92rem;
+        padding: 3rem 0.9rem;
+    }
+    .fonts {
+        text-align: justify;
+    }
+    .links {
+        color: rgba(0, 0, 0, 0.5);
+        text-decoration: none;
+        /* padding-left: 0.3rem; */
+        /* font-size: 1.03rem; */
+    }
+    .link:hover {
+        color: black;
+    }
+
+                                                                /* WEATHER SECTION */
+    #weather {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #weather-card {
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        padding: 1.3rem 0.6rem;
+        border-radius: 40px;
+    }
+    .state {
+        font-size: 1.3rem;
+        font-weight: normal;
+    }
+    .description {
+        font-size: 0.8rem;
+    }
+    .weather-icon {
+        display: flex;
+        margin-top: 0.5rem;
+    }
+    .icon {
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 40px;
+    }
+    #celcius {
+        cursor: pointer;
+        padding-right: 0.2rem;
+        margin-right: 0.1rem;
+        color: black;
+        font-weight: 500;
+    }
+    #farenheit {
+        cursor: pointer;
+        font-weight: 500;
+        margin-right: 0.5rem;
+    }
+    .details {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+                                                                /* SKILLS SECTION */
+    .skills {
+        padding: 1rem 0.9rem 3rem 0.9rem;
+        margin-top: 1rem;
+        display: none;
+    }
+    .style {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .technical {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .social {
+        width: 100%;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .well {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    li {
+        padding-left: 1rem;
+        list-style-type: none;
+        font-size: 1.1rem;
+        font-weight: 350;
+        text-align: center;
+    }
+
+                                                                /* PROJECTS SECTION */
+    .work {
+        font-size: 5rem;
+        font-weight: 700;
+        padding-top: 2rem;
+        line-height: 60%;
+        opacity: 0.18;
+        text-align: center;
+    }
+    .top {
+        position: relative;
+        font-size: 1.9rem;
+        font-weight: 500;
+        text-align: center;
+        top: -1.0rem;
+    }
+
+
+/* 
+    .fade-in-image {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 1s ease-out, transform 1s ease-out;
+    }
+    .fade-in-image.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .fade-in-image2 {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 1s ease-out, transform 1s ease-out;
+    }
+    .fade-in-image2.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .fade-in-image3 {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 1s ease-out, transform 1s ease-out;
+    }
+    .fade-in-image3.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .fade-in-image4 {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 1s ease-out, transform 1s ease-out;
+    }
+    .fade-in-image4.visible {
+        opacity: 1;
+        transform: translateY(0);
+    } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    .container {
+        padding: 2rem;
+    }
+    .slider-wrapper {
+        position: relative;
+        max-width: 58rem;
+        /* border: 1px solid blue; */
+        /* height: 50rem; */
+        margin: 0 auto;
+    }
+    .slider {
+        display: flex;
+        aspect-ratio: 6 / 9;
+        overflow-x: auto;
+        scrollbar-width: none;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        /* box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25); */
+        border-radius: 0.5rem;
+    }
+    .slider img {
+        flex: 1 0 100%;
+        scroll-snap-align: start;
+        object-fit: contain;
+    }
+    .slider-nav {
+        display: flex;
+        column-gap: 1rem;
+        position: absolute;
+        bottom: 1.25rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+    .slider-nav a {
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background-color: #fff;
+        opacity: 0.75;
+        transition: opacity ease 250ms;
+    }
+    .slider-nav a:hover {
+        opacity: 1;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .design {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .image {
+        width: 80%;
+        height: 100%;
+    }
+
+                                                                /* TORN PAGE */
+    .torn-page {
+        height: 8rem;
+        background-image: url(https://uploads-ssl.webflow.com/5a872bc50b4f6f0001a740bd/5cee05efd405b0394f68a648_tornpaper.png);
+    }
+    .next {
+        transform: scaleY(-1);
+        margin-bottom: 2rem;
+    }
+
+                                                                /* EXPERIENCE SECTION */
+    #experience {
+        padding: 0rem 0.9rem 0rem 0.9rem;
+        background-color: rgba(217, 217, 217, 0.35);
+    }
+    .two {
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    .three {
+        font-weight: 250;
+        text-align: center;
+    }
+    .resume {
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        text-decoration: none;
+        padding: 0.7em;
+        border-radius: 2rem;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+                                                                /* MESSAGE SECTION */
+    .message {
+        padding: 0rem 0.9rem 4rem 0.9rem;
+    }
+    .input {
+        width: 97%;
+        padding: 0.3rem;
+        border-radius: 0.4rem;
+        border-color: rgba(0, 0, 0, 0.4);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    #message {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1rem;
+    }
+    .button {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        border-color: transparent;
+        border-radius: 5px;
+        margin-top: 1rem;
+        width: 30%;
+        height: 2rem;
+    }
+    .button:hover {
+        background-color: black;
+    } 
+
+                                                                    /* CONTACT SECTION */
+    .contact {
+        height: 3rem;
+        background-color: rgba(217, 217, 217, 0.35);
+        padding: 0rem 0.9rem 0rem 0.9rem;
+    }
+    .copy {
+        height: 100%;
+        float: left;
+        display: flex;
+        align-items: center;
+    }
+    .right {
+        height: 100%;
+        float: right;
+        display: flex;
+        align-items: center;
+    }
+    .link {
+        color: rgba(0, 0, 0, 0.5);
+        text-decoration: none;
+        padding-left: 0.5rem;
+        font-size: 0.9rem;
+    }
+    .link:hover {
+        color: black;
+    }
+}
+
+                                                                                                                                 /* 384px MAX-WIDTH VIEW */
+@media screen  and (max-width: 384px) {
+    .profile {
+        margin-top: 15rem;
+    }
+    .name {
+        font-size: 2.5rem;
+        font-weight: 100;
+    }
+    .copy {
+        font-size: 0.75rem;
+    }
+    .style {
+        font-weight: bold;
+    }
+    .deets {
+        font-size: 0.8rem;
+    }
+    .style {
+        font-size: 1.5rem;
+    }
+    .well {
+        font-size: 1.2rem;
+    }
+    li {
+        font-size: 0.9rem;
+    }
+    .link {
+        padding-left: 0.5rem;
+        font-size: 0.75rem;
+    }
+    .work {
+        font-size: 4.5rem;
+    }
+    .top {
+        font-size: 1.7rem;
+    }
+}
+
+                                                                                                                                /* 321px MIN-WIDTH VIEW */
+@media screen and (max-width:321px) {
+    .name {
+        font-size: 2.2rem;
+    }
+}
+
+                                                                                                                                 /* 650px MIN-WIDTH VIEW */
+@media screen and (min-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    html, body {
+        width: 100%;
+        height: 100%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: rgba(0, 0, 0, 0.5);
+        margin: 0;
+    }
+    .home {
+        width: 2.5rem;
+        height: 2.5rem;
+        top: 3rem;
+        left: 3rem;
+        position: fixed;
+        background-color: white;
+        z-index: 9999;
+    }
+    .pad {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .margin {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+                                                                /* PICTURE SECTION */
+    .info {
+        height: 90%;
+        padding: 0.5rem 0rem;
+        background-color: rgba(217, 217, 217, 0.35);
+    }
+    .profile {
+        margin: 10rem 3rem 0px;
+    }
+    .picture {
+        display: none;
+    }
+    .name {
+        font-size: 2.9rem;
+        font-weight: 100;
+    }
+    .intro {
+        font-size: 1rem;
+    }
+
+                                                                /* LITTLE DETAILS */
+    .deets {
+        font-size: 1.2rem;
+        padding: 3rem 3rem 2.5rem;
+    }
+    .fonts {
+        text-align: justify;
+    }
+    .links {
+        color: rgba(0, 0, 0, 0.5);
+        text-decoration: none;
+        /* padding-left: 0.3rem; */
+        font-size: 1.2rem;
+    }
+    .link:hover {
+        color: black;
+    }
+
+                                                                /* SKILLS SECTION */
+    .skills {
+        padding: 1.5rem 3rem 2.5rem 3rem;
+        margin-top: 1rem;
+        height: 24.8%;
+        display: none;
+    }
+    .style {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    .technical {
+        float: left;
+        width: 49%;
+    }
+    .social {
+        float: right;
+        width: 49%;
+    }
+    .well {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+    li {
+        padding-left: 1rem;
+        list-style-type: none;
+        font-size: 1.1rem;
+        font-weight: 350;
+    }
+
+
+
+
+    .fade-in-image {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 2s ease-out, transform 2s ease-out;
+    }
+    .fade-in-image.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+
+
+                                                                /* WEATHER SECTION */
+    #weather {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* border: 1px solid black; */
+    }
+    #weather-card {
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        padding: 1.5rem;
+        border-radius: 40px;
+    }
+    .state {
+        font-size: 1.3rem;
+        font-weight: normal;
+    }
+    .description {
+        font-size: 0.8rem;
+    }
+    .weather-icon {
+        display: flex;
+        margin-top: 0.5rem;
+        /* align-items: center; */
+        /* border: 1px solid green; */
+    }
+    .icon {
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 40px;
+        /* color: black; */
+    }
+    #celcius {
+        /* font-size: 1rem; */
+        /* color: purple; */
+        cursor: pointer;
+        padding-right: 0.2rem;
+        margin-right: 0.1rem;
+        color: black;
+        font-weight: 500;
+        /* border-right: 1px solid rgba(0, 0, 0, 0.5); */
+    }
+    /* .celcius:hover {
+        color: black;
+        font-weight: 500;
+    } */
+    #farenheit {
+        /* font-size: 1rem; */
+        cursor: pointer;
+        font-weight: 500;
+        /* color: red; */
+        /* background-color: black; */
+        margin-right: 0.5rem;
+    }
+    .details {
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+
+                                                                /* PROJECTS SECTION */
+    #problem {
+        margin-top: 3rem;
+        /* margin-bottom: 4rem; */
+    }
+    .work {
+        font-size: 6rem;
+        font-weight: 700;
+        padding-top: 2rem;
+        line-height: 60%;
+        opacity: 0.18;
+        text-align: center;
+    }
+    .top {
+        position: relative;
+        font-size: 2.5rem;
+        font-weight: 500;
+        text-align: center;
+        top: -1.5rem;
+    }
+
+
+    
+
+    /* .fade-in-image2 {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 2s ease-out, transform 2s ease-out;
+    }
+    .fade-in-image2.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .fade-in-image3 {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 3s ease-out, transform 3s ease-out;
+    }
+    .fade-in-image3.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .fade-in-image4 {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 4s ease-out, transform 4s ease-out;
+    }
+    .fade-in-image4.visible {
+        opacity: 1;
+        transform: translateY(0);
+    } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    .container {
+        padding: 2rem;
+    }
+    .slider-wrapper {
+        position: relative;
+        max-width: 58rem;
+        /* border: 1px solid blue; */
+        /* height: 50rem; */
+        margin: 0 auto;
+    }
+    .slider {
+        display: flex;
+        aspect-ratio: 16 / 9;
+        overflow-x: auto;
+        scrollbar-width: none;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        /* box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25); */
+        border-radius: 0.5rem;
+    }
+    .slider img {
+        flex: 1 0 100%;
+        scroll-snap-align: start;
+        object-fit: contain;
+    }
+    .slider-nav {
+        display: flex;
+        column-gap: 1rem;
+        position: absolute;
+        bottom: 1.25rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+    .slider-nav a {
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background-color: #fff;
+        opacity: 0.75;
+        transition: opacity ease 250ms;
+    }
+    .slider-nav a:hover {
+        opacity: 1;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .design {
+        width: 40%;
+    }
+    .flex {
+        display: flex;
+    }
+    .margin-top {
+        margin-top: 3rem;
+    }
+    .image {
+        width: 100%;
+        height: 94.5%;
+    }
+
+                                                                /* TORN PAGE */
+    .torn-page {
+        height: 10rem;
+        background-image: url(https://uploads-ssl.webflow.com/5a872bc50b4f6f0001a740bd/5cee05efd405b0394f68a648_tornpaper.png);
+        /* border: 1px solid red; */
+    }
+    .next {
+        transform: scaleY(-1);
+    }
+
+                                                                /* EXPERIENCE SECTION */
+    #experience {
+        height: 40%;
+        padding: 0rem 3rem 0rem 3rem;
+        background-color: rgba(217, 217, 217, 0.35);
+    }
+    .two {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .three {
+        font-weight: 250;
+    }
+    .resume {
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        text-decoration: none;
+        padding: 0.7em;
+        border-radius: 2rem;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+                                                                /* MESSAGE SECTION */
+    .message {
+        padding: 2rem 3rem 4rem 3rem;
+    }
+    .input {
+        width: 55%;
+        padding: 0.3rem;
+        border-radius: 0.4rem;
+        border-color: rgba(0, 0, 0, 0.4);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    #message {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1rem;
+    }
+    .button {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        border-color: transparent;
+        border-radius: 5px;
+        margin-top: 1rem;
+        width: 17%;
+        height: 2rem;
+    }
+    .button:hover {
+        background-color: black;
+    } 
+
+                                                                    /* CONTACT SECTION */
+    .contact {
+        height: 3rem;
+        background-color: rgba(217, 217, 217, 0.35);
+        padding: 0rem 3rem 0rem 3rem;
+    }
+    .copy {
+        height: 100%;
+        float: left;
+        display: flex;
+        align-items: center;
+    }
+    .right {
+        height: 100%;
+        float: right;
+        display: flex;
+        align-items: center;
+    }
+    .link {
+        color: rgba(0, 0, 0, 0.5);
+        text-decoration: none;
+        padding-left: 0.5rem;
+        font-size: 0.9rem;
+    }
+    .link:hover {
+        color: black;
+    }
+}
+
+                                                                                                                                /* 991px MIN-WIDTH VIEW */
+@media screen and (min-width: 991px) {
+    .home {
+        top: 3rem;
+        left: 5rem;
+    }
+    .pad {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .margin {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+                                                                    /* PICTURE SECTION */
+    .info {
+        height: 100%;
+    }
+    .profile {
+        width: 42%;
+        height: 100%;
+        padding-left: 5rem;
+        margin: 0;
+        float: left;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .picture {
+        float: right;
+        width: 49%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ugly {
+        width: 75%;
+        height: 45%;
+        background-image: url(./images/IMG-20250209-WA0015-2.jpg);
+        background-position: top;
+        background-size: cover;
+    }
+    .fade-in {
+        opacity: 0;
+        transition: opacity 2s ease-in;
+    }
+    .fade-in.visible {
+        opacity: 1;
+    }
+    .name {
+        font-size: 3.5rem;
+        font-weight: 100;
+    }
+    .intro {
+        font-size: 1rem;
+        width: 80%;
+    }
+
+                                                                /* LITTLE DETAILS */
+    .deets {
+        padding: 3rem 5rem 2rem;
+    }
+
+                                                                /* SKILLS SECTION */
+    .skills {
+        padding: 2rem 5rem 2rem;
+
+    }
+    .style {
+        font-size: 2.5rem;
+        font-weight: inherit;
+    }
+
+                                                                /* PROJECTS SECTION */
+    #problem {
+        margin-bottom: 1rem;
+    }
+    .double {
+        display: flex;
+    }
+    .flex {
+        display: flex;
+        justify-content: space-around;
+    }
+    .padding-left {
+        padding-left: 5rem;
+    }
+    .well {
+        font-size: 1.3rem;
+    }
+    .margin-top{
+        margin-top: 0;
+        padding-right: 5rem;
+    }
+    .design {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .margin {
+        margin: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    .container {
+        padding: 2rem;
+    }
+    .slider-wrapper {
+        position: relative;
+        max-width: 58rem;
+        /* border: 1px solid blue; */
+        /* height: 50rem; */
+        margin: 0 auto;
+    }
+    .slider {
+        display: flex;
+        aspect-ratio: 16 / 9;
+        overflow-x: auto;
+        scrollbar-width: none;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        /* box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25); */
+        border-radius: 0.5rem;
+    }
+    .slider img {
+        flex: 1 0 100%;
+        scroll-snap-align: start;
+        object-fit: contain;
+    }
+    .slider-nav {
+        display: flex;
+        column-gap: 1rem;
+        position: absolute;
+        bottom: 1.25rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+    .slider-nav a {
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background-color: #fff;
+        opacity: 0.75;
+        transition: opacity ease 250ms;
+    }
+    .slider-nav a:hover {
+        opacity: 1;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                /* EXPERIENCE SECTION */
+    #experience {
+        padding: 0rem 5rem 0rem;
+        height: 26%;
+        position: relative;
+        z-index: 9;
+    }
+
+                                                                /* MESSAGE SECTION */
+    .message {
+        padding: 4rem 5rem 5rem;
+    }
+    .input {
+        width: 50%;
+    }
+    .button {
+        width: 13%;
+    }
+
+                                                                    /* CONTACT SECTION */
+    .contact {
+        padding: 0rem 5rem;
+    }
+}
+
+                                                                                                                                /* 1338px MIN-WIDTH VIEW */
+@media screen and (min-width: 1338px) {
+    
+    .home {
+        top: 3rem;
+        left: 10rem;
+    }
+    .pad {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+    .margin {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+                                                                    /* PICTURE SECTION */
+    .profile {
+        width: 39%;
+        padding-left: 10rem;
+    }
+    .ugly {
+        width: 70%;
+        height: 45%;
+    }
+
+                                                                /* LITTLE DETAILS */
+    .deets {
+        padding: 4rem 10rem 2rem;
+    }
+
+                                                                /* SKILLS SECTION */
+    .skills {
+        padding: 2rem 10rem 0rem;
+    }
+
+                                                                /* PROJECTS SECTION */
+    .padding-left {
+        padding-left: 10rem;
+    }
+    .margin-top{
+        padding-right: 10rem;
+    }
+    .design {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .margin {
+        margin: 0;
+    }
+
+                                                                /* EXPERIENCE SECTION */
+    #experience {
+        padding: 0rem 10rem 0rem;
+        height: 24%;
+    }
+
+                                                                /* MESSAGE SECTION */
+    .message {
+        margin: 4rem 0rem 3rem;
+        padding: 0rem 10rem 2rem;
+    }
+    .input {
+        width: 40%;
+    }
+    .button {
+        width: 10%;
+    }
+
+                                                                    /* CONTACT SECTION */
+    .contact {
+        padding: 0rem 10rem;
+    }
+}
+
+                                                                                                                                /* 2000px MIN-WIDTH VIEW */
+@media screen and (min-width: 2000px) {
+    .home {
+        top: 3rem;
+        left: 32rem;
+    }
+    .pad {
+        padding-left: 32rem;
+        padding-right: 32rem;
+    }
+    .margin {
+        margin-left: 32rem;
+        margin-right: 32rem;
+    }
+
+                                                                    /* PICTURE SECTION */
+    .info {
+        height: 60%;
+    }
+    .picture{
+        width: 43.9%;
+    }
+    .profile {
+        width: 30.5%;
+        padding-left: 32rem;
+    }
+    .ugly {
+        width: 50%;
+        height: 65%;
+    }
+
+                                                                /* LITTLE DETAILS */
+    .deets {
+        padding: 6rem 32rem 3rem;
+        font-size: 2.5rem;
+    }
+
+                                                                /* SKILLS SECTION */
+    .skills {
+        padding: 4rem 32rem 0rem;
+    }
+    .style {
+        font-size: 4.5rem;
+        font-weight: bold;
+    }
+    .well {
+        font-size: 2.9rem;
+    }
+    li {
+        font-size: 2rem;
+    }
+    .links {
+        font-size: 2.5rem;
+    }
+
+                                                                /* PROJECTS SECTION */
+    .padding-left {
+        padding-left: 32rem;
+    }
+    .margin-top{
+        padding-right: 32rem;
+    }
+    .work {
+        font-size: 10rem;
+    }
+    .top {
+        font-size: 4rem;
+    }
+    .design {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .why {
+        font-size: 2.4rem;
+    }
+    .margin {
+        margin: 0;
+    }
+
+                                                                /* EXPERIENCE SECTION */
+    #experience {
+        padding: 0rem 32rem 0rem;
+        height: 22%;
+    }
+    p {
+        font-size: 2rem;
+    }
+    .two {
+        font-size: 1.8rem;
+    }
+    .three {
+        font-size: 2rem;
+    }
+
+                                                                /* MESSAGE SECTION */
+    .message {
+        padding: 0rem 32rem 2rem;
+        margin: 5rem 0rem 3rem;
+    }
+    .input {
+        width: 40%;
+    }
+    .button {
+        width: 8%;
+    }
+
+                                                                    /* CONTACT SECTION */
+    .contact {
+        padding: 0rem 32rem;
+    }
+    .copy {
+        font-size: 1.5rem;
+    }
+    .link {
+        font-size: 1.5rem;
+    }
+}
